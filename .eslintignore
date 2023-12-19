@@ -1,0 +1,7 @@
+coverage
+dist
+lib
+CHANGELOG.md
+/auto-imports.d.ts
+!/.github
+!/.*.cjs
