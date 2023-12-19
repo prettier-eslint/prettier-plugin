@@ -1,7 +1,9 @@
 {
   "extends": "@1stg/tsconfig/node16",
   "compilerOptions": {
-    "module": "Node16",
-    "rootDir": "."
+    "rootDir": ".",
+    "paths": {
+      "lib-boilerplate": ["./src/index.ts"]
+    }
   }
 }

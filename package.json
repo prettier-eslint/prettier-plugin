@@ -38,8 +38,7 @@
     "release": "yarn build && yarn changeset publish",
     "serve": "vite preview docs",
     "test": "vitest run --coverage",
-    "typecov": "type-coverage",
-    "vercel-build": "yarn docs:build"
+    "typecov": "type-coverage"
   },
   "dependencies": {
     "tslib": "^2.6.2"
